@@ -198,6 +198,7 @@ open class MessageLabel: UILabel {
 
         layoutManager.drawBackground(forGlyphRange: range, at: origin)
         layoutManager.drawGlyphs(forGlyphRange: range, at: origin)
+        layoutManager.drawsOutsideLineFragment(forGlyphAt: 0)
     }
 
     // MARK: - Public Methods
