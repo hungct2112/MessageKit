@@ -41,8 +41,8 @@ open class MessageSizeCalculator: CellSizeCalculator {
 
     public var avatarLeadingTrailingPadding: CGFloat = 0
 
-    public var incomingMessagePadding = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 30)
-    public var outgoingMessagePadding = UIEdgeInsets(top: 8, left: 30, bottom: 8, right: 4)
+    public var incomingMessagePadding = UIEdgeInsets(top: 8, left: 8, bottom: 4, right: 30)
+    public var outgoingMessagePadding = UIEdgeInsets(top: 8, left: 30, bottom: 4, right: 4)
 
     public var incomingCellTopLabelAlignment = LabelAlignment(textAlignment: .center, textInsets: .zero)
     public var outgoingCellTopLabelAlignment = LabelAlignment(textAlignment: .center, textInsets: .zero)

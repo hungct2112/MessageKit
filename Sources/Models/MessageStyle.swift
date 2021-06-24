@@ -141,7 +141,7 @@ public enum MessageStyle {
     }
 
     private func stretch(_ image: UIImage) -> UIImage {
-        let center = CGPoint(x: image.size.width / 2, y: image.size.height / 2)
+        let center = CGPoint(x: image.size.width / 2, y: image.size.height)
         let capInsets = UIEdgeInsets(top: center.y, left: center.x, bottom: center.y, right: center.x)
         return image.resizableImage(withCapInsets: capInsets, resizingMode: .stretch)
     }
